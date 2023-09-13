@@ -1,0 +1,51 @@
+/* Style for the "Listen" button with an icon */
+.listen-button, .check-button {
+    background-color: #FFA500; /* Orange background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Style for the icon inside the button */
+.listen-button, .check-button i {
+    font-size: 20px; /* Adjust the icon size as needed */
+}
+
+/* Style for the button on hover */
+.listen-button:hover, .check-button:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+}
+
+h1 {
+    color: #FF8C00;
+}
+
+/* Animation for the title text */
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Apply the animation class to the title */
+.fade-animation {
+    animation: fade 2s linear;
+}
+
+ /* Highlight for matching rows */
+ .highlight-green {
+    background-color: #c8f7c5; /* Light green background color */
+}
+
+.highlight-red {
+    background-color: #ffcccc; /* Light red background color */
+}
